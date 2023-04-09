@@ -1,0 +1,32 @@
+.login-register {
+  background-image: linear-gradient(235deg, #565867, #191a25);
+  height: 100vh;
+  &-panel {
+    width: 650px;
+    height: 500px;
+    background-color: var(--surface-a);
+    position: absolute;
+    left: calc(50% - 325px);
+    top: calc(50% - 260px);
+
+    .full-btn {
+      width: 100%;
+    }
+  }
+}
+
+
+
+.ui-inputgroup-addon:first-child, .ui-inputgroup .p-float-label:first-child input, .ui-inputgroup button:first-child, .ui-inputgroup input:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.ui-inputgroup-addon {
+  background: #e9ecef;
+  color: #6c757d;
+  border-top: 1px solid #ced4da;
+  border-left: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+  padding: 0.5rem;
+  min-width: 2.357rem;
+}
